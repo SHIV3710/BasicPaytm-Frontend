@@ -16,7 +16,7 @@ function Signup() {
 
   const handleSignUp = async()=>{
     try {
-      const response = await axios.post("http://localhost:3000/api/v1/signup",{
+      const response = await axios.post("https://basicpaytm-backend.onrender.com/api/v1/signup",{
         username,
         firstName,
         lastName,
