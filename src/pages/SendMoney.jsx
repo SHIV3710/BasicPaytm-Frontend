@@ -39,7 +39,7 @@ function SendMoney() {
                 />
               </div>
               <button onClick={()=>{
-                axios.post("https://basicpaytm-backend.onrender.com",{
+                axios.post("https://basicpaytm-backend.onrender.com/api/v1/transfer",{
                   to:id,
                   amount
                 },{
